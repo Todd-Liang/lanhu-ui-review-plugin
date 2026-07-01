@@ -1,0 +1,4 @@
+interface:
+  display_name: "Lanhu UI Review"
+  short_description: "Calibrate app UI against Lanhu specs"
+  default_prompt: "Use $lanhu-ui-review to correct the named app page against its Lanhu design."
