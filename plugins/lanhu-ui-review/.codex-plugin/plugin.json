@@ -1,0 +1,32 @@
+{
+  "name": "lanhu-ui-review",
+  "version": "0.1.0",
+  "description": "Calibrate app UI against Lanhu design specs with Chrome and Computer Use.",
+  "author": {
+    "name": "Todd"
+  },
+  "keywords": [
+    "lanhu",
+    "ui-review",
+    "design-calibration",
+    "frontend"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Lanhu UI Review",
+    "shortDescription": "Calibrate app UI against Lanhu specs.",
+    "longDescription": "Lanhu UI Review helps Codex inspect Lanhu designs in Chrome, click elements with Computer Use, collect exact measurements, apply UI-only corrections, and summarize every calibrated item.",
+    "developerName": "Todd",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use lanhu-ui-review to correct the membership center page.",
+      "Use lanhu-ui-review to calibrate the settings page.",
+      "Use lanhu-ui-review to check this page against Lanhu."
+    ],
+    "brandColor": "#2563EB"
+  }
+}
