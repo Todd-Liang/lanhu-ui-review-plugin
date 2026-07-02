@@ -8,7 +8,9 @@
 
 1. 已安装 Codex 桌面端，或正在使用支持 Codex 插件的环境。
 2. 已安装 Chrome 浏览器。
-3. Codex 的 Chrome 浏览器控制能力可用。
+3. 已安装并启用 Codex 的两个基础插件：
+   - Chrome 插件：用于打开/检测蓝湖页面、读取浏览器状态。
+   - Computer Use 插件：用于点击蓝湖设计图层、读取视觉检查面板中的尺寸和样式信息。
 4. 已登录蓝湖账号，且有目标设计稿访问权限。
 5. 本地项目可以正常运行、预览或构建。
 6. 如果校对 Flutter 项目，建议提前确认：
@@ -18,19 +20,26 @@
 
 ## 安装
 
+先安装 `lanhu-ui-review` 依赖的两个基础插件：
+
+```sh
+codex plugin add chrome@openai-bundled
+codex plugin add computer-use@openai-bundled
+```
+
 先添加插件市场：
 
 ```sh
 codex plugin marketplace add https://github.com/Todd-Liang/lanhu-ui-review-plugin
 ```
 
-然后安装插件：
+然后安装 `lanhu-ui-review` 插件：
 
 ```sh
 codex plugin add lanhu-ui-review@study-team
 ```
 
-安装完成后，建议新开或重启 Codex 线程，让插件能力重新加载。
+安装完成后，建议新开或重启 Codex 线程，让 Chrome、Computer Use 和 `lanhu-ui-review` 的能力重新加载。
 
 ## 推荐准备工作
 
